@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRavenLib.a CMakeFiles/RavenLib.dir/facedetector.cpp.o CMakeFiles/RavenLib.dir/servos.cpp.o
+/usr/bin/ranlib libRavenLib.a

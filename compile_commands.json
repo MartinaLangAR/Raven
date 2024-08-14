@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/pi/Documents/Raven/version1",
+  "command": "/usr/bin/c++ -D_FILE_OFFSET_BITS=64 -I/usr/local/include/opencv4 -I/home/pi/Documents/Raven/mlpack-4.3.0/src -std=c++17 -Wall -Wstrict-aliasing -Wno-unused-parameter -faligned-new -o CMakeFiles/RavenLib.dir/facedetector.cpp.o -c /home/pi/Documents/Raven/version1/facedetector.cpp",
+  "file": "/home/pi/Documents/Raven/version1/facedetector.cpp"
+},
+{
+  "directory": "/home/pi/Documents/Raven/version1",
+  "command": "/usr/bin/c++ -D_FILE_OFFSET_BITS=64 -I/usr/local/include/opencv4 -I/home/pi/Documents/Raven/mlpack-4.3.0/src -std=c++17 -Wall -Wstrict-aliasing -Wno-unused-parameter -faligned-new -o CMakeFiles/RavenLib.dir/servos.cpp.o -c /home/pi/Documents/Raven/version1/servos.cpp",
+  "file": "/home/pi/Documents/Raven/version1/servos.cpp"
+},
+{
+  "directory": "/home/pi/Documents/Raven/version1",
+  "command": "/usr/bin/c++ -D_FILE_OFFSET_BITS=64 -I/home/pi/Documents/Raven/mlpack-4.3.0/src -isystem /usr/local/include/opencv4 -std=c++17 -Wall -Wstrict-aliasing -Wno-unused-parameter -faligned-new -o CMakeFiles/Raven.dir/main.cpp.o -c /home/pi/Documents/Raven/version1/main.cpp",
+  "file": "/home/pi/Documents/Raven/version1/main.cpp"
+},
+{
+  "directory": "/home/pi/Documents/Raven/version1",
+  "command": "/usr/bin/c++ -D_FILE_OFFSET_BITS=64 -I/home/pi/Documents/Raven/mlpack-4.3.0/src -isystem /usr/local/include/opencv4 -std=c++17 -Wall -Wstrict-aliasing -Wno-unused-parameter -faligned-new -o CMakeFiles/TrainRaven.dir/train_your_raven.cpp.o -c /home/pi/Documents/Raven/version1/train_your_raven.cpp",
+  "file": "/home/pi/Documents/Raven/version1/train_your_raven.cpp"
+},
+{
+  "directory": "/home/pi/Documents/Raven/version1",
+  "command": "/usr/bin/c++ -D_FILE_OFFSET_BITS=64 -I/home/pi/Documents/Raven/mlpack-4.3.0/src -isystem /usr/local/include/opencv4 -std=c++17 -Wall -Wstrict-aliasing -Wno-unused-parameter -faligned-new -o CMakeFiles/ReinforceRaven.dir/reinforce_train_your_raven.cpp.o -c /home/pi/Documents/Raven/version1/reinforce_train_your_raven.cpp",
+  "file": "/home/pi/Documents/Raven/version1/reinforce_train_your_raven.cpp"
+},
+{
+  "directory": "/home/pi/Documents/Raven/version1",
+  "command": "/usr/bin/c++ -D_FILE_OFFSET_BITS=64 -I/home/pi/Documents/Raven/mlpack-4.3.0/src -isystem /usr/local/include/opencv4 -std=c++17 -Wall -Wstrict-aliasing -Wno-unused-parameter -faligned-new -o CMakeFiles/Manual_training.dir/manual_training.cpp.o -c /home/pi/Documents/Raven/version1/manual_training.cpp",
+  "file": "/home/pi/Documents/Raven/version1/manual_training.cpp"
+}
+]

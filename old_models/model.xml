@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cereal>
+	<model>
+		<cereal_class_version>0</cereal_class_version>
+		<outputLayer>
+			<cereal_class_version>0</cereal_class_version>
+			<reduction>true</reduction>
+		</outputLayer>
+		<initializeRule>
+			<cereal_class_version>0</cereal_class_version>
+			<lowerBound>-1</lowerBound>
+			<upperBound>1</upperBound>
+		</initializeRule>
+		<network>
+			<cereal_class_version>0</cereal_class_version>
+			<value0>
+				<cereal_class_version>0</cereal_class_version>
+				<inputDimensions size="dynamic">
+					<value0>7</value0>
+				</inputDimensions>
+				<outputDimensions size="dynamic">
+					<value0>2</value0>
+				</outputDimensions>
+				<validOutputDimensions>true</validOutputDimensions>
+				<training>true</training>
+			</value0>
+			<value1>
+				<vecSize>8</vecSize>
+				<value0>
+					<cereal_class_version>0</cereal_class_version>
+					<smartPointer>
+						<polymorphic_id>2147483649</polymorphic_id>
+						<polymorphic_name>mlpack::LinearType&lt;arma::mat&gt;</polymorphic_name>
+						<ptr_wrapper>
+							<valid>1</valid>
+							<data>
+								<cereal_class_version>0</cereal_class_version>
+								<value0>
+									<inputDimensions size="dynamic">
+										<value0>7</value0>
+									</inputDimensions>
+									<outputDimensions size="dynamic">
+										<value0>7</value0>
+									</outputDimensions>
+									<validOutputDimensions>false</validOutputDimensions>
+									<training>true</training>
+								</value0>
+								<inSize>7</inSize>
+								<outSize>7</outSize>
+								<regularizer>
+									<cereal_class_version>0</cereal_class_version>
+								</regularizer>
+							</data>
+						</ptr_wrapper>
+					</smartPointer>
+				</value0>
+				<value1>
+					<smartPointer>
+						<polymorphic_id>2147483650</polymorphic_id>
+						<polymorphic_name>mlpack::LeakyReLUType&lt;arma::mat&gt;</polymorphic_name>
+						<ptr_wrapper>
+							<valid>1</valid>
+							<data>
+								<cereal_class_version>0</cereal_class_version>
+								<value0>
+									<inputDimensions size="dynamic">
+										<value0>7</value0>
+									</inputDimensions>
+									<outputDimensions size="dynamic">
+										<value0>7</value0>
+									</outputDimensions>
+									<validOutputDimensions>false</validOutputDimensions>
+									<training>true</training>
+								</value0>
+								<alpha>0.029999999999999999</alpha>
+							</data>
+						</ptr_wrapper>
+					</smartPointer>
+				</value1>
+				<value2>
+					<smartPointer>
+						<polymorphic_id>1</polymorphic_id>
+						<ptr_wrapper>
+							<valid>1</valid>
+							<data>
+								<value0>
+									<inputDimensions size="dynamic">
+										<value0>7</value0>
+									</inputDimensions>
+									<outputDimensions size="dynamic">
+										<value0>4</value0>
+									</outputDimensions>
+									<validOutputDimensions>false</validOutputDimensions>
+									<training>true</training>
+								</value0>
+								<inSize>7</inSize>
+								<outSize>4</outSize>
+								<regularizer/>
+							</data>
+						</ptr_wrapper>
+					</smartPointer>
+				</value2>
+				<value3>
+					<smartPointer>
+						<polymorphic_id>2147483651</polymorphic_id>
+						<polymorphic_name>mlpack::ReLU6Type&lt;arma::mat&gt;</polymorphic_name>
+					</smartPointer>
+				</value3>
+			</value1>
+		</network>
+	</model>
+</cereal>
+

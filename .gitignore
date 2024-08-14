@@ -1,0 +1,21 @@
+#other repositories
+###################
+LCCV
+libcamera
+
+#compiled files
+###############
+*.o
+*.so
+CmdServo
+CollectRaven
+convert_cam1to2
+Convert_to_csv
+main
+Manual_training
+MovePercentage
+OpenCvTest
+Raven
+ReinforceRaven
+soundtest
+TrainRaven

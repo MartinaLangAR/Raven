@@ -1,3 +1,4 @@
+
 version 1 of Raven
 
 Specs:
@@ -32,3 +33,6 @@ Building project: using CMAKE: - browse in Raven\version1
                                - cmake .
                                - make
                                - ./Raven (-refers to main.cpp compiled output)
+
+Art Project for motor-controlled raven sculpture
+
